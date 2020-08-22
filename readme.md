@@ -2,4 +2,4 @@
 ### Each lab is stored in diferent branches
 ## 1 Lab contains in Lab1
 ## 2 Lab contains in Lab2
-## 2 Lab contains in Lab2
+## 3 Lab contains in Lab3
