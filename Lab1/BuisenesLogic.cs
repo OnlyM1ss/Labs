@@ -50,7 +50,7 @@ namespace Lab1
                 if(!isLegal)
                 {
                     Administative record = new Administative();
-                    dataSource.Delete(id, true);
+                    dataSource.Delete(id, false);
                     record.setID(id);
                     record.setName(name);
                     record.setBeginTime(beginTime);

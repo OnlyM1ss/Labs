@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\D1sabler\\source\\repos\\Lab1\\Lab1\\Lab1.csproj": {}
+    "C:\\Users\\Murdergorn\\source\\repos\\Labs-Lab1\\Lab1\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\D1sabler\\source\\repos\\Lab1\\Lab1\\Lab1.csproj": {
+    "C:\\Users\\Murdergorn\\source\\repos\\Labs-Lab1\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\D1sabler\\source\\repos\\Lab1\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "C:\\Users\\Murdergorn\\source\\repos\\Labs-Lab1\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\D1sabler\\source\\repos\\Lab1\\Lab1\\Lab1.csproj",
-        "packagesPath": "C:\\Users\\D1sabler\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\D1sabler\\source\\repos\\Lab1\\Lab1\\obj\\",
+        "projectPath": "C:\\Users\\Murdergorn\\source\\repos\\Labs-Lab1\\Lab1\\Lab1.csproj",
+        "packagesPath": "C:\\Users\\Murdergorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murdergorn\\source\\repos\\Labs-Lab1\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\D1sabler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Murdergorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
