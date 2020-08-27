@@ -1,22 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 
 namespace Lab1
 {
     class MemoryDataSource : IDataSource
     {
+        static int IndexAdministrative = 0;
+        static int IndexLegal = 0;
         private List<Legal> LegalDocuments = new List<Legal>();
         private List<Administative> AdministrativeDocuments = new List<Administative>();
 
-
+        //solid mistake
         public Document Save(Administative document)
         {
+            ++IndexAdministrative;
+            document.setID(IndexAdministrative);
             AdministrativeDocuments.Add(document);
             return document;
         }
         public Document Save(Legal document)
         {
+            ++IndexLegal;
+            document.setID(IndexLegal);
             LegalDocuments.Add(document);
             return document;
         }

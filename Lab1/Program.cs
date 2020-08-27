@@ -62,7 +62,7 @@ namespace Lab1
                         Console.WriteLine("Распорядительные: ");
                         Console.WriteLine(administatives.Count);
                         Console.WriteLine("+-------------------------------------------+");
-                        Console.WriteLine("|id|name|beginData|endData|discribe");
+                        Console.WriteLine("|id  |name   |beginData  |endData    |discribe");
                         foreach (var administative in administatives)
                         {
                             Console.WriteLine(administative.getId() + "|" + administative.getName() + "|" + administative.getbeginTime() + "|" + administative.getEndTime() + "|" + administative.getdiscribe());
@@ -72,7 +72,7 @@ namespace Lab1
                         legals = buisenesLogic.GetLegals();
                         Console.WriteLine(legals.Count);
                         Console.WriteLine("+-------------------------------------------+");
-                        Console.WriteLine("|id|name|beginData|endData|discribe");
+                        Console.WriteLine("|id  |name |beginData   |endData   |discribe");
                         foreach (var legal in legals)
                         {
                             Console.WriteLine(legal.getId() + "|"  + legal.getName() + "|" + legal.getbeginTime() + "|" + legal.getEndTime() + "|" + legal.getdiscribe());
